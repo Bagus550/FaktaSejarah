@@ -43,6 +43,15 @@ nav a {
     margin: 20px 0;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+.fact1 {
+    background: #4CAF50;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 /* Footer */
@@ -60,12 +69,43 @@ footer {
     text-align: center;
 }
 
+.JUDUL {
+    text-align: center;
+    color: white;
+}
+
 .paragraf {
     text-align: justify;
     text-indent: 50px;
+    line-height: 1.8;
 }
 
 a {
     text-decoration: none;
     color: black;
+}
+
+li {
+    margin : 18px;
+    text-align: justify;
+}
+
+button {
+    margin-bottom: 20px;
+    margin-left: 80px;
+    background-color: #4CAF50;
+    padding: 5px;
+    font-size: 10px;
+    color: white;
+    border: none;
+    border-radius: 50px;
+}
+
+button :hover {
+    background-color: white;
+    color: black;
+}
+
+.sumber {
+    color: white;
 }
